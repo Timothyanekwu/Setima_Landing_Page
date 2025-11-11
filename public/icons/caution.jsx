@@ -1,0 +1,20 @@
+import * as React from "react";
+const Caution = (props) => (
+  <svg
+    width={20}
+    height={18}
+    viewBox="0 0 20 18"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      d="M9.93254 6.99975V8.99975M9.93254 12.9998H9.94254M3.00454 16.9998H16.8605C18.4005 16.9998 19.3625 15.3328 18.5925 13.9998L11.6645 1.99975C10.8945 0.66675 8.97054 0.66675 8.20054 1.99975L1.27254 13.9998C0.502542 15.3328 1.46454 16.9998 3.00454 16.9998Z"
+      stroke="#FFFCF9"
+      strokeWidth={2}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+export default Caution;
