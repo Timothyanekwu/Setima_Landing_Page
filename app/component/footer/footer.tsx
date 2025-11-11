@@ -21,7 +21,7 @@ const Footer = () => {
     "Privacy",
   ];
   return (
-    <footer className="relative pb-[120px] lg:pb-[50px] flex flex-col space-y-12 pt-[436px] md:pt-[300px] lg:pt-[250px]">
+    <footer className="w-full relative pb-[120px] lg:pb-[50px] flex flex-col space-y-12 pt-[436px] md:pt-[300px] lg:pt-[250px]">
       <StartTrial />
 
       <div className="xl:flex justify-between xl:px-10">
@@ -59,9 +59,7 @@ const Footer = () => {
       <div className="border-t border-t-[#FF9B0B33] py-8 xl:px-10 xl:flex justify-between">
         <p>© Semita AI. All rights reserved</p>
         <div className="flex justify-between lg:grid grid-cols-3 mt-10 xl:mt-0 xl:w-[40%] gap-4 xl:gap-10">
-          <p className="underline text-sm underline-offset-4">
-            Privicacy Policy
-          </p>
+          <p className="underline text-sm underline-offset-4">Privacy Policy</p>
           <p className="underline text-sm underline-offset-4">
             Terms of Service
           </p>

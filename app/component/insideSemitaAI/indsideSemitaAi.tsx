@@ -64,7 +64,7 @@ const IndsideSemitaAi = () => {
         </p>
       </div>
 
-      <div className="border-[1.4px] rounded-3xl border-[#7B380A] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:w-[80%] mx-auto">
+      <div className="border-[1.4px] rounded-3xl border-[#7B380A] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 overflow-hidden lg:w-[80%] mx-auto">
         {properties.map((property, index) => {
           return (
             <PropEntry

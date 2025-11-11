@@ -42,7 +42,7 @@ const Pricing = () => {
     },
   ];
   return (
-    <div className="py-[72py] pb-[150%] md:pb-[50%]">
+    <div className="py-[72py] pb-[150%] md:pb-[50%] xl:pb-[40%]">
       <div className="mb-5">
         <p className="text-[40px] leading-12 font-bold text-center w-full text-[#472308]">
           Simple, Transparent Pricing

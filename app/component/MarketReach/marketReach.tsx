@@ -28,7 +28,7 @@ const MarketReach = () => {
         </p>
       </div>
 
-      <div className="max-w-sm lg:max-w-full lg:w-[80%] lg:mx-auto pb-4 mb-20 border rounded-3xl border-[#FF9B0B33] grid grid-cols-1 lg:grid-cols-2 gap-6 mx-auto">
+      <div className="max-w-sm lg:max-w-full lg:w-[80%] lg:mx-auto pb-4 md:pb-0 mb-20 border rounded-3xl border-[#FF9B0B33] grid grid-cols-1 lg:grid-cols-2 gap-6 mx-auto">
         {/* WITHOUT SEMITA */}
         <div className="p-6 w-full">
           <p className="font-semibold text-[32px]">Without Semita</p>
