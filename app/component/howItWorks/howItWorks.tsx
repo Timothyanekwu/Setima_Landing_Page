@@ -20,7 +20,7 @@ const HowItWorks = () => {
         "We gather market signals, customer insights, competitors, and risks.",
       tagText: "Step 2",
       tagIcon: <Bulb color={""} strokeWidth={0.69} className="w-2.5 h-2.5" />,
-      rotation: "-rotate-[3.46deg] z-10",
+      rotation: "-rotate-[3.46deg] lg:rotate-0 z-10",
     },
     {
       title: "Clear report and next steps",
@@ -34,11 +34,11 @@ const HowItWorks = () => {
       subText: "Monitor progress and revisit results anytime.",
       tagText: "Step 4",
       tagIcon: <Level color={""} strokeWidth={0.6} className="w-2.5 h-2.5" />,
-      rotation: "rotate-[2.9deg] z-30",
+      rotation: "rotate-[2.9deg] lg:rotate-0 z-30",
     },
   ];
   return (
-    <div className="max-w-sm mx-auto">
+    <div className="max-w-sm lg:max-w-full mx-auto">
       <div>
         <p className="text-3xl font-bold text-center w-full text-[#472308">
           How Semita Works
@@ -49,7 +49,7 @@ const HowItWorks = () => {
         </p>
       </div>
 
-      <div className="my-10">
+      <div className="my-10 lg:grid grid-cols-4 gap-x-8">
         {items.map((item, index) => {
           return (
             <Card

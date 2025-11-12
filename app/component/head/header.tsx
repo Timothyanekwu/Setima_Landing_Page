@@ -3,7 +3,7 @@ import Logo from "../../../public/logo/logo";
 
 const Header = () => {
   return (
-    <div className="h-[100px] px-4 xl:px-28 w-full bg-[#FF9B0B0D] border-b border-b-[#FF9B0B33] flex justify-between items-center backdrop-blur-md z-50">
+    <div className="sticky top-0 h-[100px] px-4 xl:px-28 w-full bg-[#FF9B0B0D] border-b border-b-[#FF9B0B33] flex justify-between items-center backdrop-blur-xs z-50">
       <div className="h-full font-bold text-xl flex items-center gap-3">
         <Logo />
         <p>Semita AI</p>

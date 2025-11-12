@@ -20,7 +20,7 @@ const PricingCard = ({
 }: PricingCardProp) => {
   return (
     <div
-      className={`min-w-full md:min-w-[400px] lg:min-w-72 min-h-[500px] md:min-h-96 snap-center mt-10 pb-8 lg:px-3 bg-[#FFF5E7] border-b border-b-[#7B380A] md:border-none relative flex flex-col justify-between md:rounded-xl ${style}`}
+      className={`group transition-all duration-300 xl:hover:shadow-lg lg:shadow-neutral-200 hover:scale-105 min-w-full md:min-w-[400px] lg:min-w-auto lg:w-full min-h-[500px] md:min-h-96 xl:min-h-auto snap-center mt-10 lg:mt-0 md:pt-1 pb-8 md:px-1 bg-[#FFF5E7] border-b border-b-[#7B380A] md:border-none relative flex flex-col justify-between md:rounded-xl ${style}`}
     >
       <div>
         {code === 1 ? (
@@ -54,11 +54,11 @@ const PricingCard = ({
         </div>
       </div>
       <div
-        className={` ${
-          code === 1
-            ? "bg-[#301705] text-[#ffffff]"
-            : "bg-[#FFB742] text-[#301705]"
-        } rounded-2xl w-full backdrop-opacity-90 py-3.5 flex items-center justify-center cursor-pointer`}
+        className={` 
+          
+            group-hover:bg-[#301705] group-hover:text-[#ffffff]
+          bg-[#FFB742] text-[#301705]
+         rounded-2xl w-full backdrop-opacity-90 py-3.5 flex items-center justify-center cursor-pointer transition-colors duration-300`}
       >
         <p className="font-semibold xl:text-xs">{actionText}</p>
       </div>

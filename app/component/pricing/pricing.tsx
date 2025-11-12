@@ -13,7 +13,7 @@ const Pricing = () => {
       title: "BASIC",
       price: "20",
       actionText: "Get Started",
-      style: "lg:-rotate-12 lg:z-10",
+      style: " lg:z-10",
     },
     {
       plan: [
@@ -25,7 +25,7 @@ const Pricing = () => {
       title: "PLUS",
       price: "30",
       actionText: "Get Started",
-      style: "lg:rotate-0 lg:z-20",
+      style: " lg:z-20",
     },
 
     {
@@ -37,7 +37,7 @@ const Pricing = () => {
       ],
       title: "ENTERPRISE",
       price: "99",
-      style: "lg:rotate-12 lg:z-10",
+      style: "lg:z-10",
       actionText: "Contact US",
     },
   ];
@@ -52,7 +52,7 @@ const Pricing = () => {
         </p>
       </div>
 
-      <div className="w-full md:w-[60%] lg:w-full mx-auto overflow-x-auto lg:overflow-x-visible flex space-x-4 lg:-space-x-14 snap-x snap-mandatory scroll-smooth lg:justify-center">
+      <div className="w-full md:w-[60%] lg:w-full mx-auto overflow-x-auto xl:overflow-x-visible flex space-x-4 snap-x snap-mandatory scroll-smooth lg:justify-center">
         {pricingPlans.map((plan, index) => {
           return (
             <PricingCard

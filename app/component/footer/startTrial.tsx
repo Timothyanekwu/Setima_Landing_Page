@@ -4,7 +4,7 @@ import Watermark from "../../../public/svgs/watermark";
 
 const StartTrial = () => {
   return (
-    <div className="absolute top-[-400px] md:top-[-280px] left-1/2 -translate-x-1/2 w-full max-w-7xl px-6 xl:px-10">
+    <div className="absolute top-[-400px] md:top-[-280px] left-1/2 -translate-x-1/2 w-full max-w-7xl xl:px-10">
       <div className="rounded-3xl w-full bg-[#472308] border-2 border-[#472308] px-6 lg:pr-0 pt-12 lg:pt-20 h-[753px] md:h-[500px] lg:h-[420] relative overflow-hidden flex flex-col lg:flex-row">
         {/* Watermark at the very back */}
         <Watermark

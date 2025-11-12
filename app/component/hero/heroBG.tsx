@@ -17,7 +17,7 @@ const HeroBG = () => {
   const boxesSet1 = generateBoxProps();
   const boxesSet2 = generateBoxProps(3, 0.08, [100, 120]);
   return (
-    <div className="absolute top-0 w-full h-full -z-30">
+    <div className="fixed top-0 w-screen h-screen -z-50 opacity-80">
       <div className=" opacity-10 relative">
         <div className="rotate-[-40deg] h-[400px] w-[900px] bg-[#F3BCBE] backdrop-blur-2xl -top-60 -left-60 absolute"></div>
         <div className="rotate-[-40deg] h-[600px] w-[1200px] bg-[#FFEFB4] backdrop-blur-2xl top-[10%] left-[5%] absolute"></div>

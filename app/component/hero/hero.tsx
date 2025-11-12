@@ -4,7 +4,7 @@ import HeroBG from "./heroBG";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center pt-24 xl:pt-20 pb-12 relative overflow-hidden px-6">
+    <div className="flex flex-col items-center pt-24 xl:pt-20 pb-12 overflow-hidden px-6">
       <div className="relative rounded-full gradient-border">
         <div className="flex items-center rounded-full bg-[#fff8f2] w-fit space-x-3 px-3 py-1 ">
           <Pencil />
@@ -35,12 +35,12 @@ const Hero = () => {
           <p className="text-[#301705] font-semibold">Get Started</p>
         </div>
         <div className="bg-[#301705] rounded-2xl px-6 py-3 mt-6 w-fit cursor-pointer">
-          <p className="text-white font-semibold">Get Started</p>
+          <p className="text-white font-semibold">Watch Demo</p>
         </div>
       </div>
 
       <video
-        className="w-full lg:w-[50%] h-auto mt-10 rounded-lg -rotate-2"
+        className="w-full lg:w-[50%] h-auto mt-10 rounded-lg -rotate-2 hover:rotate-0 transition-transform duration-300 delay-100"
         controls
         poster="/images/placeholderImage.png"
       >
