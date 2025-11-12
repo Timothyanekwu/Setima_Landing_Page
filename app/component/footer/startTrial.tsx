@@ -32,7 +32,7 @@ const StartTrial = () => {
         </div>
 
         {/* Image between watermark and content */}
-        <div className="w-full md:w-[60%] aspect-square absolute lg:relative right-[-18px] bottom-0 z-10 flex justify-end items-end">
+        <div className="w-full md:w-[60%] aspect-square absolute lg:relative right-[-18px] -bottom-5 z-10 flex justify-end items-end">
           <Image
             src={"/images/freetrial.png"}
             alt="Freetrial Template"

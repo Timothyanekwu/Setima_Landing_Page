@@ -56,7 +56,7 @@ const IndsideSemitaAi = () => {
     <div className="my-20">
       <div className="mb-5">
         <p className="text-3xl font-bold text-center w-full text-[#472308">
-          Indside Semita AI
+          Inside Semita AI
         </p>
         <p className="text-lg font-normal text-center w-full text-[#111827]">
           Six essential research areas to validate your business idea and
